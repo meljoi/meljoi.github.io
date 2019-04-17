@@ -31,6 +31,7 @@ nav a:hover {
 .full {
     background-image:url('images/graffiti.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 /*.full::after{
@@ -52,8 +53,7 @@ nav a:hover {
     font-family: 'lato', sans-serif;
     color: #ff9000;
     font-weight: bold;
-    outline-color: #0f0f0f;
-      
+    outline-color: #0f0f0f;  
 }
 
 .city a {
@@ -69,8 +69,8 @@ nav a:hover {
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-   
 }
+
 .parenttop, .parentbottom {
     display: flex;
     flex: 1;
@@ -146,10 +146,12 @@ nav a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    margin-bottom: 3%;
+    
 }
 
-
+.icon {
+    margin-top: 1%;
+}
 /*style for bx*/
 
 h1 {
@@ -207,8 +209,8 @@ h1 {
 .infopic1 img {
     width: 75%;
     margin-left: 25%;
-    
 }
+
  .infopic2 img {
     width: 75%;
 }
@@ -218,15 +220,13 @@ h1 {
     flex: 1;
     justify-content: space-between;
     padding-top: 15%;
-    
 }
 
 .parentinfo2 {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    padding-top: 15%;
-    
+    padding-top: 15%;   
 }
 
 .bx1 p, .bx2 p {
@@ -235,10 +235,13 @@ h1 {
     font-family: 'lato', sans-serif;
 }
 
+.para p {
+    text-align: right;
+}
+
 .addy p {
     margin: 0%;
-    line-height: normal;
-    
+    line-height: normal; 
 }
 
 .icon {
