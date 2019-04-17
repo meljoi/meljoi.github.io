@@ -230,18 +230,15 @@ h1 {
 }
 
 .bx1 p, .bx2 p {
-    text-align: center;
+    text-align: justify;
     line-height: 2;
     font-family: 'lato', sans-serif;
 }
 
-.para p {
-    text-align: right;
-}
-
 .addy p {
     margin: 0%;
-    line-height: normal; 
+    line-height: normal;
+    text-align: center;
 }
 
 .icon {
