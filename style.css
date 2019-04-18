@@ -32,6 +32,7 @@ nav a:hover {
     background-image:url('images/graffiti.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     
 }
 
@@ -41,7 +42,7 @@ nav a:hover {
     color: #ff9000;
     font-weight: bold;
     outline-color: #0f0f0f; 
-    margin-top: 50%;
+    margin-top: 70%;
 }
 
 .city a {
@@ -61,12 +62,12 @@ nav a:hover {
 
 .about {
     width: 20%;
-    height: 20%;
+    height: auto;
     text-align: left;
     flex: 1;
     margin-left: 5%;
     margin-right: 3%;
-    padding: 5px;
+    padding:  3px;
     margin-top: 50%;
     margin-bottom: 3%;
     
@@ -87,9 +88,10 @@ nav a:hover {
     color: #ff9000;
   font-weight: bolder;
     width: auto;
-   height: 100px;
+   height: auto;
     font-size: 40;
     padding-left: 30px;
+    padding-top: 0px;
      text-shadow:
        1px 1px #000;  
 }
